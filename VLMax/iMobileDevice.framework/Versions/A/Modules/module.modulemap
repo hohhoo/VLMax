@@ -1,0 +1,6 @@
+framework module iMobileDevice {
+  umbrella header "iMobileDevice.h"
+
+  export *
+  module * { export * }
+}

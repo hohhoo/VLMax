@@ -130,7 +130,6 @@
 			children = (
 				B9D277D622BB5BFB00CE9CB6 /* web_release */,
 				B9D277BD22B8FBC400CE9CB6 /* tools */,
-				B9D2763722B887F600CE9CB6 /* iMobileDevice */,
 				B9789F5222B8858900F62026 /* AppDelegate.h */,
 				B9789F5322B8858900F62026 /* AppDelegate.m */,
 				B9D277B522B8AD6000CE9CB6 /* VLDeviceWindow.h */,
@@ -140,10 +139,11 @@
 				B9D2783122BC6CAE00CE9CB6 /* VLKeyWindow.h */,
 				B9D2783222BC6CAE00CE9CB6 /* VLKeyWindow.m */,
 				B9789F5722B8858A00F62026 /* MainMenu.xib */,
-				B9789F5522B8858A00F62026 /* Assets.xcassets */,
 				B9789F5A22B8858A00F62026 /* Info.plist */,
 				B9789F5B22B8858A00F62026 /* main.m */,
 				B9789F5D22B8858A00F62026 /* VLMax.entitlements */,
+				B9789F5522B8858A00F62026 /* Assets.xcassets */,
+				B9D2763722B887F600CE9CB6 /* iMobileDevice */,
 			);
 			path = VLMax;
 			sourceTree = "<group>";

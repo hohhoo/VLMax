@@ -93,10 +93,10 @@
     }
     
     
-    NSArray <NSNumber *> *locArray = [CoordinateManager GCJ02ToWGS84With:lon.doubleValue and:lat.doubleValue];
-
-    [self updateLocation:locArray[1].stringValue longitude:locArray[0].stringValue];
-    
+//    NSArray <NSNumber *> *locArray = [CoordinateManager GCJ02ToWGS84With:lon.doubleValue and:lat.doubleValue];
+//
+//    [self updateLocation:locArray[1].stringValue longitude:locArray[0].stringValue];
+    [self updateLocation:lat longitude:lon];
 }
 
 

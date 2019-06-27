@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4255542B1988043400C77EB4 /* iMDVLNScreenshotrClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255542A1988043400C77EB4 /* iMDVLNScreenshotrClient.m */; };
+		4255542D1988044300C77EB4 /* iMDVLNScreenshotrClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255542C1988044300C77EB4 /* iMDVLNScreenshotrClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F396197DAA28009E9621 /* afc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F36F197DAA28009E9621 /* afc.h */; };
+		4255F397197DAA28009E9621 /* diagnostics_relay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F370197DAA28009E9621 /* diagnostics_relay.h */; };
+		4255F398197DAA28009E9621 /* file_relay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F371197DAA28009E9621 /* file_relay.h */; };
+		4255F399197DAA28009E9621 /* heartbeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F372197DAA28009E9621 /* heartbeat.h */; };
+		4255F39A197DAA28009E9621 /* house_arrest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F373197DAA28009E9621 /* house_arrest.h */; };
+		4255F39B197DAA28009E9621 /* installation_proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F374197DAA28009E9621 /* installation_proxy.h */; };
+		4255F39C197DAA28009E9621 /* libimobiledevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F375197DAA28009E9621 /* libimobiledevice.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4255F39D197DAA28009E9621 /* lockdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F376197DAA28009E9621 /* lockdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F39E197DAA28009E9621 /* misagent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F377197DAA28009E9621 /* misagent.h */; };
+		4255F39F197DAA28009E9621 /* mobile_image_mounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F378197DAA28009E9621 /* mobile_image_mounter.h */; };
+		4255F3A0197DAA28009E9621 /* mobilebackup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F379197DAA28009E9621 /* mobilebackup.h */; };
+		4255F3A1197DAA28009E9621 /* mobilebackup2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F37A197DAA28009E9621 /* mobilebackup2.h */; };
+		4255F3A2197DAA28009E9621 /* mobilesync.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F37B197DAA28009E9621 /* mobilesync.h */; };
+		4255F3A3197DAA28009E9621 /* notification_proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F37C197DAA28009E9621 /* notification_proxy.h */; };
+		4255F3A4197DAA28009E9621 /* restore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F37D197DAA28009E9621 /* restore.h */; };
+		4255F3A5197DAA28009E9621 /* sbservices.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F37E197DAA28009E9621 /* sbservices.h */; };
+		4255F3A6197DAA28009E9621 /* screenshotr.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F37F197DAA28009E9621 /* screenshotr.h */; };
+		4255F3A7197DAA28009E9621 /* service.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F380197DAA28009E9621 /* service.h */; };
+		4255F3A8197DAA28009E9621 /* syslog_relay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F381197DAA28009E9621 /* syslog_relay.h */; };
+		4255F3A9197DAA28009E9621 /* webinspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F382197DAA28009E9621 /* webinspector.h */; };
+		4255F3BB197DAA28009E9621 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4255F395197DAA28009E9621 /* libxml2.2.dylib */; };
+		4255F3C0197DAA4B009E9621 /* libxml2.2.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4255F395197DAA28009E9621 /* libxml2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4255F3E1197DB0DE009E9621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F3E0197DB0DE009E9621 /* main.m */; };
+		4255F3E4197DB0DE009E9621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F3E3197DB0DE009E9621 /* AppDelegate.m */; };
+		4255F3E6197DB0DE009E9621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4255F3E5197DB0DE009E9621 /* Images.xcassets */; };
+		4255F3FD197DB15A009E9621 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4255F3FC197DB15A009E9621 /* Cocoa.framework */; };
+		4255F406197DB1D5009E9621 /* DeviceInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F403197DB1D5009E9621 /* DeviceInfoWindow.m */; };
+		4255F413197DB220009E9621 /* iMDVLNConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F408197DB220009E9621 /* iMDVLNConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F414197DB220009E9621 /* iMDVLNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F409197DB220009E9621 /* iMDVLNConstants.m */; };
+		4255F415197DB220009E9621 /* iMDVLNDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F40A197DB220009E9621 /* iMDVLNDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F416197DB220009E9621 /* iMDVLNDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F40B197DB220009E9621 /* iMDVLNDevice.m */; };
+		4255F417197DB220009E9621 /* iMDVLNDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F40C197DB220009E9621 /* iMDVLNDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F418197DB220009E9621 /* iMDVLNDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F40D197DB220009E9621 /* iMDVLNDeviceManager.m */; };
+		4255F419197DB220009E9621 /* iMDVLNPlistTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F40E197DB220009E9621 /* iMDVLNPlistTools.h */; };
+		4255F41A197DB220009E9621 /* iMDVLNPlistTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F40F197DB220009E9621 /* iMDVLNPlistTools.m */; };
+		4255F41D197DB220009E9621 /* iMobileDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F412197DB220009E9621 /* iMobileDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F42A197DB228009E9621 /* NSColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F41F197DB228009E9621 /* NSColor+Hex.h */; };
+		4255F42B197DB228009E9621 /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F420197DB228009E9621 /* NSColor+Hex.m */; };
+		4255F42C197DB228009E9621 /* NSError+libimobiledevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F421197DB228009E9621 /* NSError+libimobiledevice.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4255F42D197DB228009E9621 /* NSError+libimobiledevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F422197DB228009E9621 /* NSError+libimobiledevice.m */; };
+		4255F42E197DB228009E9621 /* iMDVLNClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F424197DB228009E9621 /* iMDVLNClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F42F197DB228009E9621 /* iMDVLNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F425197DB228009E9621 /* iMDVLNClient.m */; };
+		4255F430197DB228009E9621 /* iMDVLNLockdowndClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F426197DB228009E9621 /* iMDVLNLockdowndClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F431197DB228009E9621 /* iMDVLNLockdowndClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F427197DB228009E9621 /* iMDVLNLockdowndClient.m */; };
+		4255F432197DB228009E9621 /* iMDVLNSpringboardClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F428197DB228009E9621 /* iMDVLNSpringboardClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4255F433197DB228009E9621 /* iMDVLNSpringboardClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F429197DB228009E9621 /* iMDVLNSpringboardClient.m */; };
+		4255F435197DB269009E9621 /* iMDVLNClientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F434197DB269009E9621 /* iMDVLNClientProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		793BC9981A37515500D79883 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4255F3E7197DB0DE009E9621 /* MainMenu.xib */; };
+		B9D276B922B8904B00CE9CB6 /* iMobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4255F34C197DA822009E9621 /* iMobileDevice.framework */; };
+		B9D276BA22B8904B00CE9CB6 /* iMobileDevice.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4255F34C197DA822009E9621 /* iMobileDevice.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B9D276BF22B890B200CE9CB6 /* libplist.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D276BE22B890B200CE9CB6 /* libplist.3.dylib */; };
+		B9D276C122B891C600CE9CB6 /* libusbmuxd.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D276C022B891C600CE9CB6 /* libusbmuxd.4.dylib */; };
+		B9D276C322B891FB00CE9CB6 /* libimobiledevice.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D276C222B891FB00CE9CB6 /* libimobiledevice.6.dylib */; };
+		B9D277C622BA1DE700CE9CB6 /* libimobiledevice.6.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B9D276C222B891FB00CE9CB6 /* libimobiledevice.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B9D277C722BA1DE700CE9CB6 /* libusbmuxd.4.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B9D276C022B891C600CE9CB6 /* libusbmuxd.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B9D277C822BA1DE700CE9CB6 /* libplist.3.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B9D276BE22B890B200CE9CB6 /* libplist.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9D276BB22B8904B00CE9CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4255F343197DA822009E9621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4255F34B197DA822009E9621;
+			remoteInfo = iMobileDevice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4255F3BC197DAA3D009E9621 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B9D277C622BA1DE700CE9CB6 /* libimobiledevice.6.dylib in Copy Frameworks */,
+				B9D277C722BA1DE700CE9CB6 /* libusbmuxd.4.dylib in Copy Frameworks */,
+				B9D277C822BA1DE700CE9CB6 /* libplist.3.dylib in Copy Frameworks */,
+				4255F3C0197DAA4B009E9621 /* libxml2.2.dylib in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D276BD22B8904B00CE9CB6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B9D276BA22B8904B00CE9CB6 /* iMobileDevice.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4255542A1988043400C77EB4 /* iMDVLNScreenshotrClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNScreenshotrClient.m; sourceTree = "<group>"; };
+		4255542C1988044300C77EB4 /* iMDVLNScreenshotrClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNScreenshotrClient.h; sourceTree = "<group>"; };
+		4255F34C197DA822009E9621 /* iMobileDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iMobileDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4255F350197DA822009E9621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4255F36F197DAA28009E9621 /* afc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afc.h; sourceTree = "<group>"; };
+		4255F370197DAA28009E9621 /* diagnostics_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diagnostics_relay.h; sourceTree = "<group>"; };
+		4255F371197DAA28009E9621 /* file_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_relay.h; sourceTree = "<group>"; };
+		4255F372197DAA28009E9621 /* heartbeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heartbeat.h; sourceTree = "<group>"; };
+		4255F373197DAA28009E9621 /* house_arrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = house_arrest.h; sourceTree = "<group>"; };
+		4255F374197DAA28009E9621 /* installation_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = installation_proxy.h; sourceTree = "<group>"; };
+		4255F375197DAA28009E9621 /* libimobiledevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libimobiledevice.h; sourceTree = "<group>"; };
+		4255F376197DAA28009E9621 /* lockdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockdown.h; sourceTree = "<group>"; };
+		4255F377197DAA28009E9621 /* misagent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misagent.h; sourceTree = "<group>"; };
+		4255F378197DAA28009E9621 /* mobile_image_mounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobile_image_mounter.h; sourceTree = "<group>"; };
+		4255F379197DAA28009E9621 /* mobilebackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilebackup.h; sourceTree = "<group>"; };
+		4255F37A197DAA28009E9621 /* mobilebackup2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilebackup2.h; sourceTree = "<group>"; };
+		4255F37B197DAA28009E9621 /* mobilesync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilesync.h; sourceTree = "<group>"; };
+		4255F37C197DAA28009E9621 /* notification_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notification_proxy.h; sourceTree = "<group>"; };
+		4255F37D197DAA28009E9621 /* restore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = restore.h; sourceTree = "<group>"; };
+		4255F37E197DAA28009E9621 /* sbservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbservices.h; sourceTree = "<group>"; };
+		4255F37F197DAA28009E9621 /* screenshotr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screenshotr.h; sourceTree = "<group>"; };
+		4255F380197DAA28009E9621 /* service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service.h; sourceTree = "<group>"; };
+		4255F381197DAA28009E9621 /* syslog_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syslog_relay.h; sourceTree = "<group>"; };
+		4255F382197DAA28009E9621 /* webinspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webinspector.h; sourceTree = "<group>"; };
+		4255F395197DAA28009E9621 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libxml2.2.dylib; sourceTree = "<group>"; };
+		4255F3DC197DB0DE009E9621 /* iMobileTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMobileTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4255F3DF197DB0DE009E9621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4255F3E0197DB0DE009E9621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4255F3E2197DB0DE009E9621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4255F3E3197DB0DE009E9621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4255F3E5197DB0DE009E9621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4255F3E8197DB0DE009E9621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4255F3FC197DB15A009E9621 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4255F402197DB1D5009E9621 /* DeviceInfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoWindow.h; sourceTree = "<group>"; };
+		4255F403197DB1D5009E9621 /* DeviceInfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoWindow.m; sourceTree = "<group>"; };
+		4255F408197DB220009E9621 /* iMDVLNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNConstants.h; sourceTree = "<group>"; };
+		4255F409197DB220009E9621 /* iMDVLNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNConstants.m; sourceTree = "<group>"; };
+		4255F40A197DB220009E9621 /* iMDVLNDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNDevice.h; sourceTree = "<group>"; };
+		4255F40B197DB220009E9621 /* iMDVLNDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNDevice.m; sourceTree = "<group>"; };
+		4255F40C197DB220009E9621 /* iMDVLNDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNDeviceManager.h; sourceTree = "<group>"; };
+		4255F40D197DB220009E9621 /* iMDVLNDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNDeviceManager.m; sourceTree = "<group>"; };
+		4255F40E197DB220009E9621 /* iMDVLNPlistTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNPlistTools.h; sourceTree = "<group>"; };
+		4255F40F197DB220009E9621 /* iMDVLNPlistTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNPlistTools.m; sourceTree = "<group>"; };
+		4255F412197DB220009E9621 /* iMobileDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMobileDevice.h; sourceTree = "<group>"; };
+		4255F41F197DB228009E9621 /* NSColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hex.h"; sourceTree = "<group>"; };
+		4255F420197DB228009E9621 /* NSColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hex.m"; sourceTree = "<group>"; };
+		4255F421197DB228009E9621 /* NSError+libimobiledevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+libimobiledevice.h"; sourceTree = "<group>"; };
+		4255F422197DB228009E9621 /* NSError+libimobiledevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+libimobiledevice.m"; sourceTree = "<group>"; };
+		4255F424197DB228009E9621 /* iMDVLNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNClient.h; sourceTree = "<group>"; };
+		4255F425197DB228009E9621 /* iMDVLNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNClient.m; sourceTree = "<group>"; };
+		4255F426197DB228009E9621 /* iMDVLNLockdowndClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNLockdowndClient.h; sourceTree = "<group>"; };
+		4255F427197DB228009E9621 /* iMDVLNLockdowndClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNLockdowndClient.m; sourceTree = "<group>"; };
+		4255F428197DB228009E9621 /* iMDVLNSpringboardClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNSpringboardClient.h; sourceTree = "<group>"; };
+		4255F429197DB228009E9621 /* iMDVLNSpringboardClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMDVLNSpringboardClient.m; sourceTree = "<group>"; };
+		4255F434197DB269009E9621 /* iMDVLNClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMDVLNClientProtocol.h; sourceTree = "<group>"; };
+		42F057781992D524007216D9 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		B9D276BE22B890B200CE9CB6 /* libplist.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libplist.3.dylib; sourceTree = "<group>"; };
+		B9D276C022B891C600CE9CB6 /* libusbmuxd.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusbmuxd.4.dylib; sourceTree = "<group>"; };
+		B9D276C222B891FB00CE9CB6 /* libimobiledevice.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libimobiledevice.6.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4255F348197DA822009E9621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4255F3FD197DB15A009E9621 /* Cocoa.framework in Frameworks */,
+				B9D276C122B891C600CE9CB6 /* libusbmuxd.4.dylib in Frameworks */,
+				B9D276C322B891FB00CE9CB6 /* libimobiledevice.6.dylib in Frameworks */,
+				B9D276BF22B890B200CE9CB6 /* libplist.3.dylib in Frameworks */,
+				4255F3BB197DAA28009E9621 /* libxml2.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4255F3D9197DB0DE009E9621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D276B922B8904B00CE9CB6 /* iMobileDevice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4255F342197DA822009E9621 = {
+			isa = PBXGroup;
+			children = (
+				42F057781992D524007216D9 /* Readme.md */,
+				4255F34E197DA822009E9621 /* iMobileDevice */,
+				4255F3DD197DB0DE009E9621 /* iMobileTestApp */,
+				4255F36C197DAA28009E9621 /* libimobiledevice */,
+				4255F3FE197DB15E009E9621 /* Frameworks */,
+				4255F34D197DA822009E9621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4255F34D197DA822009E9621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4255F34C197DA822009E9621 /* iMobileDevice.framework */,
+				4255F3DC197DB0DE009E9621 /* iMobileTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4255F34E197DA822009E9621 /* iMobileDevice */ = {
+			isa = PBXGroup;
+			children = (
+				4255F412197DB220009E9621 /* iMobileDevice.h */,
+				4255F408197DB220009E9621 /* iMDVLNConstants.h */,
+				4255F409197DB220009E9621 /* iMDVLNConstants.m */,
+				4255F40A197DB220009E9621 /* iMDVLNDevice.h */,
+				4255F40B197DB220009E9621 /* iMDVLNDevice.m */,
+				4255F40C197DB220009E9621 /* iMDVLNDeviceManager.h */,
+				4255F40D197DB220009E9621 /* iMDVLNDeviceManager.m */,
+				4255F40E197DB220009E9621 /* iMDVLNPlistTools.h */,
+				4255F40F197DB220009E9621 /* iMDVLNPlistTools.m */,
+				4255F423197DB228009E9621 /* Clients */,
+				4255F41E197DB228009E9621 /* Categories */,
+				4255F34F197DA822009E9621 /* Supporting Files */,
+			);
+			path = iMobileDevice;
+			sourceTree = "<group>";
+		};
+		4255F34F197DA822009E9621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4255F350197DA822009E9621 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4255F36C197DAA28009E9621 /* libimobiledevice */ = {
+			isa = PBXGroup;
+			children = (
+				4255F36D197DAA28009E9621 /* includes */,
+				B9D276C222B891FB00CE9CB6 /* libimobiledevice.6.dylib */,
+				B9D276C022B891C600CE9CB6 /* libusbmuxd.4.dylib */,
+				4255F395197DAA28009E9621 /* libxml2.2.dylib */,
+				B9D276BE22B890B200CE9CB6 /* libplist.3.dylib */,
+			);
+			path = libimobiledevice;
+			sourceTree = "<group>";
+		};
+		4255F36D197DAA28009E9621 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				4255F36E197DAA28009E9621 /* libimobiledevice */,
+			);
+			path = includes;
+			sourceTree = "<group>";
+		};
+		4255F36E197DAA28009E9621 /* libimobiledevice */ = {
+			isa = PBXGroup;
+			children = (
+				4255F36F197DAA28009E9621 /* afc.h */,
+				4255F370197DAA28009E9621 /* diagnostics_relay.h */,
+				4255F371197DAA28009E9621 /* file_relay.h */,
+				4255F372197DAA28009E9621 /* heartbeat.h */,
+				4255F373197DAA28009E9621 /* house_arrest.h */,
+				4255F374197DAA28009E9621 /* installation_proxy.h */,
+				4255F375197DAA28009E9621 /* libimobiledevice.h */,
+				4255F376197DAA28009E9621 /* lockdown.h */,
+				4255F377197DAA28009E9621 /* misagent.h */,
+				4255F378197DAA28009E9621 /* mobile_image_mounter.h */,
+				4255F379197DAA28009E9621 /* mobilebackup.h */,
+				4255F37A197DAA28009E9621 /* mobilebackup2.h */,
+				4255F37B197DAA28009E9621 /* mobilesync.h */,
+				4255F37C197DAA28009E9621 /* notification_proxy.h */,
+				4255F37D197DAA28009E9621 /* restore.h */,
+				4255F37E197DAA28009E9621 /* sbservices.h */,
+				4255F37F197DAA28009E9621 /* screenshotr.h */,
+				4255F380197DAA28009E9621 /* service.h */,
+				4255F381197DAA28009E9621 /* syslog_relay.h */,
+				4255F382197DAA28009E9621 /* webinspector.h */,
+			);
+			path = libimobiledevice;
+			sourceTree = "<group>";
+		};
+		4255F3DD197DB0DE009E9621 /* iMobileTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				4255F3E2197DB0DE009E9621 /* AppDelegate.h */,
+				4255F3E3197DB0DE009E9621 /* AppDelegate.m */,
+				4255F402197DB1D5009E9621 /* DeviceInfoWindow.h */,
+				4255F403197DB1D5009E9621 /* DeviceInfoWindow.m */,
+				4255F3E5197DB0DE009E9621 /* Images.xcassets */,
+				4255F3E7197DB0DE009E9621 /* MainMenu.xib */,
+				4255F3DE197DB0DE009E9621 /* Supporting Files */,
+			);
+			path = iMobileTestApp;
+			sourceTree = "<group>";
+		};
+		4255F3DE197DB0DE009E9621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4255F3DF197DB0DE009E9621 /* Info.plist */,
+				4255F3E0197DB0DE009E9621 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4255F3FE197DB15E009E9621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4255F3FC197DB15A009E9621 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4255F41E197DB228009E9621 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4255F41F197DB228009E9621 /* NSColor+Hex.h */,
+				4255F420197DB228009E9621 /* NSColor+Hex.m */,
+				4255F421197DB228009E9621 /* NSError+libimobiledevice.h */,
+				4255F422197DB228009E9621 /* NSError+libimobiledevice.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4255F423197DB228009E9621 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				4255F424197DB228009E9621 /* iMDVLNClient.h */,
+				4255F425197DB228009E9621 /* iMDVLNClient.m */,
+				4255F434197DB269009E9621 /* iMDVLNClientProtocol.h */,
+				4255F426197DB228009E9621 /* iMDVLNLockdowndClient.h */,
+				4255F427197DB228009E9621 /* iMDVLNLockdowndClient.m */,
+				4255542C1988044300C77EB4 /* iMDVLNScreenshotrClient.h */,
+				4255542A1988043400C77EB4 /* iMDVLNScreenshotrClient.m */,
+				4255F428197DB228009E9621 /* iMDVLNSpringboardClient.h */,
+				4255F429197DB228009E9621 /* iMDVLNSpringboardClient.m */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4255F349197DA822009E9621 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4255F39E197DAA28009E9621 /* misagent.h in Headers */,
+				4255F39C197DAA28009E9621 /* libimobiledevice.h in Headers */,
+				4255F39A197DAA28009E9621 /* house_arrest.h in Headers */,
+				4255F3A5197DAA28009E9621 /* sbservices.h in Headers */,
+				4255F417197DB220009E9621 /* iMDVLNDeviceManager.h in Headers */,
+				4255F415197DB220009E9621 /* iMDVLNDevice.h in Headers */,
+				4255F3A4197DAA28009E9621 /* restore.h in Headers */,
+				4255F435197DB269009E9621 /* iMDVLNClientProtocol.h in Headers */,
+				4255F430197DB228009E9621 /* iMDVLNLockdowndClient.h in Headers */,
+				4255F397197DAA28009E9621 /* diagnostics_relay.h in Headers */,
+				4255F41D197DB220009E9621 /* iMobileDevice.h in Headers */,
+				4255F3A7197DAA28009E9621 /* service.h in Headers */,
+				4255F3A3197DAA28009E9621 /* notification_proxy.h in Headers */,
+				4255F3A9197DAA28009E9621 /* webinspector.h in Headers */,
+				4255F3A8197DAA28009E9621 /* syslog_relay.h in Headers */,
+				4255F42E197DB228009E9621 /* iMDVLNClient.h in Headers */,
+				4255F432197DB228009E9621 /* iMDVLNSpringboardClient.h in Headers */,
+				4255F42C197DB228009E9621 /* NSError+libimobiledevice.h in Headers */,
+				4255F39F197DAA28009E9621 /* mobile_image_mounter.h in Headers */,
+				4255F413197DB220009E9621 /* iMDVLNConstants.h in Headers */,
+				4255542D1988044300C77EB4 /* iMDVLNScreenshotrClient.h in Headers */,
+				4255F3A0197DAA28009E9621 /* mobilebackup.h in Headers */,
+				4255F419197DB220009E9621 /* iMDVLNPlistTools.h in Headers */,
+				4255F399197DAA28009E9621 /* heartbeat.h in Headers */,
+				4255F3A6197DAA28009E9621 /* screenshotr.h in Headers */,
+				4255F3A1197DAA28009E9621 /* mobilebackup2.h in Headers */,
+				4255F3A2197DAA28009E9621 /* mobilesync.h in Headers */,
+				4255F398197DAA28009E9621 /* file_relay.h in Headers */,
+				4255F396197DAA28009E9621 /* afc.h in Headers */,
+				4255F39D197DAA28009E9621 /* lockdown.h in Headers */,
+				4255F42A197DB228009E9621 /* NSColor+Hex.h in Headers */,
+				4255F39B197DAA28009E9621 /* installation_proxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4255F34B197DA822009E9621 /* iMobileDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4255F362197DA822009E9621 /* Build configuration list for PBXNativeTarget "iMobileDevice" */;
+			buildPhases = (
+				4255F347197DA822009E9621 /* Sources */,
+				4255F348197DA822009E9621 /* Frameworks */,
+				4255F349197DA822009E9621 /* Headers */,
+				4255F34A197DA822009E9621 /* Resources */,
+				4255F3BC197DAA3D009E9621 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMobileDevice;
+			productName = iMobileDevice;
+			productReference = 4255F34C197DA822009E9621 /* iMobileDevice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4255F3DB197DB0DE009E9621 /* iMobileTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4255F3F6197DB0DE009E9621 /* Build configuration list for PBXNativeTarget "iMobileTestApp" */;
+			buildPhases = (
+				4255F3D8197DB0DE009E9621 /* Sources */,
+				4255F3D9197DB0DE009E9621 /* Frameworks */,
+				4255F3DA197DB0DE009E9621 /* Resources */,
+				B9D276BD22B8904B00CE9CB6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D276BC22B8904B00CE9CB6 /* PBXTargetDependency */,
+			);
+			name = iMobileTestApp;
+			productName = iMobileTestApp;
+			productReference = 4255F3DC197DB0DE009E9621 /* iMobileTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4255F343197DA822009E9621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Daniel Love";
+				TargetAttributes = {
+					4255F34B197DA822009E9621 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4255F3DB197DB0DE009E9621 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 4255F346197DA822009E9621 /* Build configuration list for PBXProject "iMobileDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 4255F342197DA822009E9621;
+			productRefGroup = 4255F34D197DA822009E9621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4255F34B197DA822009E9621 /* iMobileDevice */,
+				4255F3DB197DB0DE009E9621 /* iMobileTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4255F34A197DA822009E9621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4255F3DA197DB0DE009E9621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4255F3E6197DB0DE009E9621 /* Images.xcassets in Resources */,
+				793BC9981A37515500D79883 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4255F347197DA822009E9621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4255F41A197DB220009E9621 /* iMDVLNPlistTools.m in Sources */,
+				4255F414197DB220009E9621 /* iMDVLNConstants.m in Sources */,
+				4255F433197DB228009E9621 /* iMDVLNSpringboardClient.m in Sources */,
+				4255F42F197DB228009E9621 /* iMDVLNClient.m in Sources */,
+				4255F418197DB220009E9621 /* iMDVLNDeviceManager.m in Sources */,
+				4255F431197DB228009E9621 /* iMDVLNLockdowndClient.m in Sources */,
+				4255F42D197DB228009E9621 /* NSError+libimobiledevice.m in Sources */,
+				4255F42B197DB228009E9621 /* NSColor+Hex.m in Sources */,
+				4255F416197DB220009E9621 /* iMDVLNDevice.m in Sources */,
+				4255542B1988043400C77EB4 /* iMDVLNScreenshotrClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4255F3D8197DB0DE009E9621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4255F3E4197DB0DE009E9621 /* AppDelegate.m in Sources */,
+				4255F3E1197DB0DE009E9621 /* main.m in Sources */,
+				4255F406197DB1D5009E9621 /* DeviceInfoWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9D276BC22B8904B00CE9CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4255F34B197DA822009E9621 /* iMobileDevice */;
+			targetProxy = B9D276BB22B8904B00CE9CB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4255F3E7197DB0DE009E9621 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4255F3E8197DB0DE009E9621 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4255F360197DA822009E9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4255F361197DA822009E9621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4255F363197DA822009E9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(PROJECT_DIR)/libimobiledevice/includes",
+				);
+				INFOPLIST_FILE = iMobileDevice/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libimobiledevice",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4255F364197DA822009E9621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(PROJECT_DIR)/libimobiledevice/includes",
+				);
+				INFOPLIST_FILE = iMobileDevice/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libimobiledevice",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4255F3F7197DB0DE009E9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iMobileTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4255F3F8197DB0DE009E9621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iMobileTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4255F346197DA822009E9621 /* Build configuration list for PBXProject "iMobileDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4255F360197DA822009E9621 /* Debug */,
+				4255F361197DA822009E9621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4255F362197DA822009E9621 /* Build configuration list for PBXNativeTarget "iMobileDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4255F363197DA822009E9621 /* Debug */,
+				4255F364197DA822009E9621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4255F3F6197DB0DE009E9621 /* Build configuration list for PBXNativeTarget "iMobileTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4255F3F7197DB0DE009E9621 /* Debug */,
+				4255F3F8197DB0DE009E9621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4255F343197DA822009E9621 /* Project object */;
+}

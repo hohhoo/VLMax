@@ -21,6 +21,7 @@
 
 
 - (void)initData {
+    
 
     WKWebViewConfiguration *config = [WKWebViewConfiguration new];
     {

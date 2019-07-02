@@ -45,19 +45,19 @@
 
 #pragma mark - Notifications
 
-- (void) deviceAdded:(NSNotification *)notification
+- (void)deviceAdded:(NSNotification *)notification
 {
     [self updateDevicePopup];
 }
 
-- (void) deviceRemoved:(NSNotification *)notification
+- (void)deviceRemoved:(NSNotification *)notification
 {
     [self updateDevicePopup];
 }
 
 #pragma mark - Device popup
 
-- (void) updateDevicePopup
+- (void)updateDevicePopup
 {
     NSArray *devices = [iMDVLNDeviceManager sharedManager].devices;
     
@@ -76,7 +76,6 @@
         return;
     }
     
-    
     NSString *lat = strArr[0];
     NSString *lon = strArr[1];
     
@@ -91,11 +90,7 @@
         VLConsole(@"❌ Enter error, An invalid argument was used");
         return;
     }
-    
-    
-//    NSArray <NSNumber *> *locArray = [CoordinateManager GCJ02ToWGS84With:lon.doubleValue and:lat.doubleValue];
-//
-//    [self updateLocation:locArray[1].stringValue longitude:locArray[0].stringValue];
+
     [self updateLocation:lat longitude:lon];
 }
 
@@ -133,9 +128,6 @@
 
         }
     }
-    
-    
-    
 }
 
 - (IBAction)openMapWindows:(id)sender {
@@ -168,9 +160,6 @@
     
     self.locTF.stringValue = [NSString stringWithFormat:@"%@,%@",lat,lon];
 
-    
-    
-    
     [self updateLocation:locArray[1].stringValue longitude:locArray[0].stringValue];
     
 }
